@@ -1,0 +1,2 @@
+/*
+Sakila is a database used to collect information about a movie studio and company for use by the staff*/
