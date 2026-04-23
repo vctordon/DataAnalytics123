@@ -70,7 +70,19 @@ ORDER BY Ship.CompanyName,
 
 -- Start from the same query as above (#4), but omit OrderID and add logic to group by
 -- Ship name, with a count of how many orders were shipped for that ship name
--- REVIST NEED TO REVIEW -- 
+-- orders 
+
+SELECT
+    Ord.ShipName,
+    COUNT(*) AS OrderCount
+FROM Orders Ord
+INNER JOIN Shippers Ship
+    ON Ord.ShipVia = Ship.ShipperID
+WHERE Ord.ShipCountry = 'Germany'
+GROUP BY Ord.ShipName
+ORDER BY Ord.ShipName;
+
+
 
 -- Create a single query to list the order id, order date, ship name, ship address of all
 -- orders that included Sasquatch Ale.
@@ -89,5 +101,3 @@ ON Ord.OrderID = Det.OrderID
 INNER JOIN Products Prd
     ON Det.ProductID = Prd.ProductID
 WHERE Prd.ProductName = 'Sasquatch Ale';
-
--- 
