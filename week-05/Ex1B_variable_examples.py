@@ -25,14 +25,14 @@ print(str_4 + " " + Customer_dob)
 print(str_5 + " " + drivers_license)
 print(str_6 + " " + apolicy_num)
 
-# -------------------------------
+# -------------------------------------
 
 # Variable assumptions: 
 # Some of the variables will be string and some will be integers.
 # I may have an error with the backslashes on the dob
 # May have to re do code and add new variables
 
-# -------------------------------
+# -----------------------------------------------------------------
 
 # My Information: 
 
@@ -57,4 +57,20 @@ print(str_10 + " " + state)
 
 # -------------------------------
 
+#RESERVED WORDS IN PYTHON 
+#False	def	if	raise
+#None	del	import	return
+#True	elif	in	try
+#and	else	is	while
+#as	except	lambda	with
+#assert	finally	nonlocal	yield
+#break	for	not
+#class	form	or
 
+#FALSE - is a boolean operator that represents the opposite of true 
+#DEF - is a function used to define a function or a method in Python
+#IF - statement used to make a conditional statement, if true then some action is performed
+#RAISE - statement used to raise an error. Errors are visible in the traceback and they cancel the execution of the program if not handled properly 
+#NONE - no null value in python. None is an object that represents the absence of a value
+
+# -------------------------------------------------------------------------------------------------------------------------------------------------
