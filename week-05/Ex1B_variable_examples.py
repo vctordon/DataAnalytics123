@@ -47,7 +47,7 @@ str_7 = 'First Name:'
 str_8 = 'Last Name:'
 str_9 = 'City:'
 str_10 = 'State'
-
+print()
 # Running my info code
 print('MY PERSONAL INFORMATION:')
 print(str_7+ " " + first_name)
