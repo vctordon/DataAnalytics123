@@ -28,5 +28,6 @@ print("Total due is " + str(total))
 #print("Tip is " + format(tip, ".2f"))
 print("Tip is " + format(tip, ".2f"))
 
+print(f"The tip on a ${food_cost:.2f} restaurant bill is ${tip:.2f}")
 #------------------------------------------------------------------------
 

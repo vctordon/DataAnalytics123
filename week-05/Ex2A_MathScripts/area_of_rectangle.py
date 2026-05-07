@@ -19,3 +19,9 @@ print('Side A is',(sideA))
 print('Side B is',(sideB))
 print('The area of the rectangle is ',(Area))
 
+#Adding INPUT to terminal
+sideAcalc = input('Whats the value of side A? ')
+print('SideA equals ' + sideAcalc)
+
+sideBcalc = input('Whats the value of side B? ')
+print('SideB equals ' + sideBcalc)

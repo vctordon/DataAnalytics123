@@ -13,3 +13,4 @@ tip_percent = .18
 tip_amount = bill_amount * tip_percent
 
 print('The tip on a $',bill_amount,'bill is $',round(tip_amount,2))
+print(f"The tip on a ${bill_amount:.2f} restaurant bill is ${tip_amount:.2f}")
